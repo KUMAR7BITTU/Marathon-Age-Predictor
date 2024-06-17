@@ -11,6 +11,25 @@ The dataset used in this project is the "2024 Boston Marathon Weather and Splits
 3. age: The age of the athlete.
 You can download the dataset from Kaggle
 
+# Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:-
+git clone https://github.com/KUMAR7BITTU/Marathon-Age-Predictor.git
+
+2. Install the necessary packages:-
+pip install pandas numpy scikit-learn matplotlib seaborn
+Download the dataset
+
+3. Download the dataset from the link :- https://www.kaggle.com/datasets/runningwithrock/2024-boston-marathon-weather-and-splits
+Place the dataset file in the root directory of this project.
+
+# Usage
+Open the Jupyter Notebook and run the cells to see the data preprocessing, model training, and evaluation steps.
+
+1. Launch Jupyter Notebook
+2. Open and run marathon_age_prediction.ipynb
+
 # Model
 We use a Linear Regression model to predict the age of the marathon runners. The model is trained using the first and second half split times as features.
 
